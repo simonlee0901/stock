@@ -18,7 +18,6 @@ def is_valid_move(board, row, col, num):
                 return False
     return True
 #test info
-
 def generate_board():
     """生成一个数独棋盘"""
     board = [[0 for _ in range(9)] for _ in range(9)]
