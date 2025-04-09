@@ -50,7 +50,7 @@ def fetch_latest_orders():
 
     return orders
 
-# 初始化棋盘
+# 初始化棋盘 .
 board = generate_board()
 
 @app.route("/", methods=["GET", "POST"])
