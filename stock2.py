@@ -17,7 +17,7 @@ def is_valid_move(board, row, col, num):
             if board[i][j] == num:
                 return False
     return True
-#test
+#test info
 
 def generate_board():
     """生成一个数独棋盘"""
